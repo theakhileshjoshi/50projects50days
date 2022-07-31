@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin:0 ;
+    position: relative;
+}
+
+.bg{
+    background-image: url('https://picsum.photos/1920/1080');
+    position: absolute;
+    top: -30;
+    left: -30;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index:-1;
+    filter:blur(0px)
+}
+.loading-text {
+    font-size: 50px;
+    color: #fff;
+  }
